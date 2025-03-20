@@ -49,3 +49,19 @@ void insertionSort()
         arr[j + 1] = temp; //step 5
     }
 }
+
+void display()
+{
+    cout << endl;
+    cout << "================================" << endl;
+    cout << "Total Pass =" << n - 1 << endl;
+    cout << "================================" << endl;
+    cout << "Element Array yan Telah Tersusun" << endl;
+    cout << "================================" << endl;
+
+    for (int j = 0; j < n; j++)
+    { // looping dengan j dimulai dari 0 hingga n-1
+        cout << arr[j] << endl;
+    }
+    cout << endl;
+}
